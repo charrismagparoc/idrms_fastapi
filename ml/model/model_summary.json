@@ -1,0 +1,52 @@
+{
+  "dataset_source": "Mendeley Data \u2014 Flood Prediction Dataset",
+  "dataset_url": "https://data.mendeley.com/datasets/rt9k5wcwg9/1",
+  "kaggle_mirror": "Kaggle Playground Series S4E5 (same feature schema)",
+  "trained_at": "2026-05-03T09:28:23.629766+00:00",
+  "dataset_size": 5000,
+  "features": [
+    "MonsoonIntensity",
+    "TopographyDrainage",
+    "RiverManagement",
+    "Deforestation",
+    "Urbanization",
+    "ClimateChange",
+    "DamsQuality",
+    "Siltation",
+    "AgriculturalPractices",
+    "Encroachments",
+    "IneffectiveDisasterPreparedness",
+    "DrainageSystems",
+    "CoastalVulnerability",
+    "Landslides",
+    "Watersheds",
+    "DeterioratingInfrastructure",
+    "PopulationScore",
+    "WetlandLoss",
+    "InadequatePlanning",
+    "PoliticalFactors"
+  ],
+  "target": "flood_risk_label: LOW (prob<0.35) | MEDIUM (0.35-0.60) | HIGH (prob>=0.60)",
+  "split": "80% train / 20% test (stratified)",
+  "smote_applied": true,
+  "models": {
+    "Decision Tree": {
+      "accuracy": 0.619,
+      "f1_high": 0.3208,
+      "recall_high": 0.6126,
+      "precision_high": 0.2173
+    },
+    "Random Forest": {
+      "accuracy": 0.853,
+      "f1_high": 0.5322,
+      "recall_high": 0.5586,
+      "precision_high": 0.5082
+    },
+    "Logistic Regression": {
+      "accuracy": 0.785,
+      "f1_high": 0.543,
+      "recall_high": 0.9099,
+      "precision_high": 0.387
+    }
+  }
+}
