@@ -1,0 +1,94 @@
+|--- Siltation <= 4.50
+|   |--- IneffectiveDisasterPreparedness <= 3.50
+|   |   |--- DeterioratingInfrastructure <= 8.50
+|   |   |   |--- TopographyDrainage <= 4.50
+|   |   |   |   |--- AgriculturalPractices <= 2.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- AgriculturalPractices >  2.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- TopographyDrainage >  4.50
+|   |   |   |   |--- Urbanization <= 8.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- Urbanization >  8.50
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |--- DeterioratingInfrastructure >  8.50
+|   |   |   |--- RiverManagement <= 1.50
+|   |   |   |   |--- MonsoonIntensity <= 6.50
+|   |   |   |   |   |--- class: MEDIUM
+|   |   |   |   |--- MonsoonIntensity >  6.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- RiverManagement >  1.50
+|   |   |   |   |--- Encroachments <= 7.50
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- Encroachments >  7.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |--- IneffectiveDisasterPreparedness >  3.50
+|   |   |--- Deforestation <= 3.50
+|   |   |   |--- CoastalVulnerability <= 2.50
+|   |   |   |   |--- PoliticalFactors <= 4.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- PoliticalFactors >  4.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- CoastalVulnerability >  2.50
+|   |   |   |   |--- Watersheds <= 6.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- Watersheds >  6.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |--- Deforestation >  3.50
+|   |   |   |--- WetlandLoss <= 4.50
+|   |   |   |   |--- Encroachments <= 5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- Encroachments >  5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- WetlandLoss >  4.50
+|   |   |   |   |--- DrainageSystems <= 7.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- DrainageSystems >  7.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|--- Siltation >  4.50
+|   |--- CoastalVulnerability <= 4.50
+|   |   |--- PoliticalFactors <= 5.50
+|   |   |   |--- Urbanization <= 6.50
+|   |   |   |   |--- MonsoonIntensity <= 5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- MonsoonIntensity >  5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- Urbanization >  6.50
+|   |   |   |   |--- DeterioratingInfrastructure <= 1.50
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- DeterioratingInfrastructure >  1.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |--- PoliticalFactors >  5.50
+|   |   |   |--- Watersheds <= 7.50
+|   |   |   |   |--- RiverManagement <= 5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- RiverManagement >  5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- Watersheds >  7.50
+|   |   |   |   |--- Landslides <= 5.50
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- Landslides >  5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |--- CoastalVulnerability >  4.50
+|   |   |--- Landslides <= 3.50
+|   |   |   |--- DeterioratingInfrastructure <= 6.50
+|   |   |   |   |--- IneffectiveDisasterPreparedness <= 5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- IneffectiveDisasterPreparedness >  5.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- DeterioratingInfrastructure >  6.50
+|   |   |   |   |--- Encroachments <= 3.50
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- Encroachments >  3.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |--- Landslides >  3.50
+|   |   |   |--- TopographyDrainage <= 7.50
+|   |   |   |   |--- RiverManagement <= 9.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- RiverManagement >  9.50
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |--- TopographyDrainage >  7.50
+|   |   |   |   |--- TopographyDrainage <= 9.50
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- TopographyDrainage >  9.50
+|   |   |   |   |   |--- truncated branch of depth 4
